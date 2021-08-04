@@ -1,0 +1,101 @@
+@media all and (max-width: 500px){
+
+    body{
+        margin: 0;
+    }
+       .prt{
+           width: 100vw;
+           height: 100vh;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+       }
+       .enf1{
+           background-image: url("../assets/samfr.jpg");
+           background-repeat: no-repeat;
+           background-size: cover;
+           width: 100%;
+           height: 50%;
+       }
+       .enf2{
+           color: white;
+           width: 100%;
+           height: 49%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+       }
+       .soustitre{
+           margin-bottom: 0;
+           margin-top: 0;
+           padding-top: 20px;
+           padding-left: 40px;
+           background-color: white;
+       }
+       .titre{
+           font-size: 20px;
+           display: flex;
+           justify-content: space-around;
+           margin-top: 120px;
+           background-color: grey;
+           opacity: 0.6;
+       }
+       .titre br{
+           display: none;
+       }
+       #liste{
+           background-color: white;
+           list-style: none;
+           font-size: 10px;
+           margin: 0;
+           padding: 10px;
+           height: 20px;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+       }
+       .aside1{
+           background-color: red;
+           height: 49%;
+           width: 100%;
+           display: flex;
+       }
+       .centre{
+           margin: auto;
+       }
+       .titre1{
+           font-size: 10px;
+           margin-left: 50px;
+           color: red;
+           transition: all;
+       }
+       .txt{
+           margin: auto;
+           padding-top: 20px;
+       }
+       .aside2{
+           font-size: 13px;
+           background-color: red;
+           height: 49%;
+           width: 100%;
+           text-align: center;
+           display: flex;
+       }
+       .bloc{
+           margin: auto;
+           width: 90%;
+       }
+       .rond{
+           width: 50px;
+           height: 50px;
+           border: 1px white solid;
+           border-radius: 50px;
+           margin-right: 80px;
+           transition: all;
+       }
+       .rond :hover{
+           color: red;
+       }
+   
+   
+   }

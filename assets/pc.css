@@ -1,0 +1,93 @@
+@media all and (min-width:700px){
+    body{
+        margin: 0;
+    }
+    .prt{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .enf1{
+        background-image: url("../assets/samfr.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+    }
+    .enf2{
+        color: white;
+        width: 49%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .ban{
+        width: 50%;
+        margin-left: 30px;
+    }
+    .soustitre{
+        background-color: white;
+        margin-bottom: 0;
+        padding: 5px;
+    }
+    .titre{
+        font-size: 20px;
+        margin-top: 400px;
+        margin-left: 20px;
+    }
+    nav{
+        display: flex;
+    }
+    #liste{
+        width: 100%;
+        background-color: white;
+        list-style: none;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    .aside1{
+        background-color: grey;
+        height: 49%;
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+    .centre{
+        margin: auto;
+    }
+    .titre1{
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    .txt{
+        margin: auto;
+        padding: 20px;
+    }
+    .aside2{
+        font-size: 13px;
+        background-color: grey;
+        height: 49%;
+        text-align: center;
+        display: flex;
+    }
+    .bloc{
+        margin: auto;
+        width: 90%;
+    }
+    .rond{
+        width: 50px;
+        height: 50px;
+        border: 1px white solid;
+        border-radius: 50px;
+        margin-right: 80px;
+    }
+
+
+
+
+
+}
