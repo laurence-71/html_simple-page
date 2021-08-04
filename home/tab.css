@@ -11,7 +11,7 @@
        justify-content: space-between;
    }
    .enf1{
-       background-image: url("/../assets/samfr.jpg");
+       background-image: url("/home/samfr.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        width: 100%;
